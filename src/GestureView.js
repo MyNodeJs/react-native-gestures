@@ -16,7 +16,7 @@ export default React.createClass({
     onError: PropTypes.func.isRequired,
     toStyle: PropTypes.func.isRequired,
     style: PropTypes.any,
-    children: PropTypes.array,
+    children: PropTypes.any,
     type: PropTypes.oneOf([
       'View',
       'Image'
